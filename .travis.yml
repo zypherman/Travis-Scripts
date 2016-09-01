@@ -1,0 +1,7 @@
+language: python
+
+branches:
+  only:
+  - develop
+
+script: travis_wait 40 python buildFunctionalTests.py
