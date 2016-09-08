@@ -5,4 +5,4 @@ branches:
   - master
   - staging
 
-script: python branchSpecificActions.py TRAVIS_BRANCH
+script: python branchSpecificActions.py $TRAVIS_BRANCH
