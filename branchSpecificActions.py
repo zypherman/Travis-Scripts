@@ -2,7 +2,7 @@ import sys
 
 # Main method
 def main(argv):
-    int exitStatus = 0
+    exitStatus = 0
     if len(argv) == 1:
         print "Not enough arguments"
         exitStatus = 1
