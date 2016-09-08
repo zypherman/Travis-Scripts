@@ -1,3 +1,4 @@
+# Main method
 def main(String branchName):
     print branchName
 
