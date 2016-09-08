@@ -2,7 +2,7 @@ language: python
 
 branches:
   only:
-  - develop
+  - master
   - staging
 
 script: python branchSpecificActions.py TRAVIS_BRANCH
