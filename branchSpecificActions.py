@@ -3,11 +3,14 @@ import sys
 # Main method
 def main(argv):
     exitStatus = 0
+
     if len(argv) == 1:
         print "Not enough arguments"
         exitStatus = 1
     else:
-        print("Branch Name: " + argv[1])
+        branchName = argv[1]
+        if branchName in "master":
+            print("Branch Name: " + branchName)
 
     sys.exit(exitStatus)
 
