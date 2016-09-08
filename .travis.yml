@@ -3,5 +3,6 @@ language: python
 branches:
   only:
   - develop
+  - staging
 
-script: travis_wait 40 python buildFunctionalTests.py
+script: python branchSpecificActions.py TRAVIS_BRANCH
